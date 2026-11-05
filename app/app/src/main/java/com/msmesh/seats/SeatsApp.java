@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 
 import com.msmesh.seats.data.Prefs;
 
-/** Applies the saved light/dark/system theme before any activity is created. */
+/** Applies the saved light/dark/systems theme before any activity is created. */
 public class SeatsApp extends Application {
 	@Override
 	public void onCreate() {
