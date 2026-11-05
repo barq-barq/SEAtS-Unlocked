@@ -21,7 +21,7 @@ from playwright.sync_api import sync_playwright
 from credentials import STATE, credentials
 
 STATUS = STATE / "portal_login_status.txt"
-DEFAULT_PORTAL = "https://uon.seats.cloud"
+DEFAULT_PORTAL = "https://uom.seats.cloud"
 
 
 def status(message: str) -> None:
